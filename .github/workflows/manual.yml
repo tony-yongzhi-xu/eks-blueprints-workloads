@@ -38,6 +38,7 @@ jobs:
         echo ${{vars.REPO_MESSAGE}}
         echo $repo_local_message
         echo ${{vars.ENV_MESSAGE}}
+        echo $repo_env_message
 
       env: 
         local_message: "this is local messsage"
