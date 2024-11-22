@@ -39,6 +39,10 @@ jobs:
         echo $repo_local_message
         echo ${{vars.ENV_MESSAGE}}
         echo $repo_env_message
+        if [ ${{vars.DEPLOY}} = "true" ]
+        then
+            echo "I am going to deploy"
+        fi
 
       env: 
         local_message: "this is local messsage"
