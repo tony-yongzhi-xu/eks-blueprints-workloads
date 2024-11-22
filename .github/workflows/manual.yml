@@ -26,7 +26,7 @@ jobs:
     env: 
       message: "this is the message"
     runs-on: ubuntu-latest
-
+    environment: demo
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
     # Runs a single command using the runners shell
